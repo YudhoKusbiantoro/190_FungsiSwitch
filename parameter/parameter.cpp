@@ -6,13 +6,30 @@ using namespace std;
 
 int luas;
 
-void prosedurLuas(int p, int l)
+void prosedurluas(int p, int l)
 {
-    luas + p * l;
+    luas = p * l;
 }
 
-int fungsiluas(int p, ont l)
+int fungsiluas(int p, int l)
 {
-    return p * l 
+    return p * l;
+
+}
+
+int main()
+{
+    int panjang, lebar;
+    cout << "Masukan Panjang : ";
+    cin >> panjang;
+    cout << "Masukan lebar : ";
+    cin >> lebar;
+
+    prosedurluas(panjang, lebar);
+    cout << "luas persegi panjang dengan prosedur: " << luas << endl;
+
+    cout << "luas persegi panjang dengan fungsi: " << fungsiluas(panjang, lebar) << endl;
+    return 0;
+
 }
 
