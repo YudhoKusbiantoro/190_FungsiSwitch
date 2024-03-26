@@ -49,7 +49,29 @@ int main()
 		cout << "masukan pilihan: ";
 		cin >> pilihan;
 
-
+		switch (pilihan)
+		{
+		case 1:
+			inputdata();
+			cout << "n/hasil penjumlahan: " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 2:
+			inputdata();
+			cout << "n/hasil pengurangan: " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 3:
+			inputdata();
+			cout << "n/hasil perkalian: " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		case 4:
+			inputdata();
+			cout << "n/hasil pembagian: " << penjumlahan(bilangan1, bilangan2) << endl;
+			system("pause");
+			break;
+		}
 
 	}
 }
